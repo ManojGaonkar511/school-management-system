@@ -6,7 +6,7 @@ RUN rm -rf /usr/local/tomcat/webapps/*
 
 # Copy WAR file to Tomcat webapps directory
 # (Assumes your WAR file is named `school-management-system.war`)
-COPY school-management-system.war /usr/local/tomcat/webapps/
+COPY SchoolManagementSystem.war /usr/local/tomcat/webapps/
 
 # Expose default Tomcat port
 EXPOSE 8080
